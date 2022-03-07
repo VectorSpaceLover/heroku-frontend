@@ -144,11 +144,11 @@ export default function Home(){
                         }
                     </>
                 ):(
-                    {* <div className="all-apps">
+                    <div className="all-apps">
                         <AppList title='Most popular mobile apps' data={popularApps}/>
                         <AppList title='Just added' data={addedApps}/>
                         <AppList title='Most popular websites' data={popularWebSites}/>
-                    </div> *}
+                    </div>
                 )}
                 <Footer />
             </div>
